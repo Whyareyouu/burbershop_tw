@@ -1,153 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
     <header class="bg-black relative">
-        <div class="container">
-            <nav class="flex justify-between uppercase font-bold text-xl py-7">
-                <ul class="flex gap-10 lg:hidden">
-                    <li><a href="" class="text-lightgray">Информация</a></li>
-                    <li><a href="" class="text-lightgray">Новости</a></li>
-                    <li><a href="" class="text-lightgray">Прайс-лист</a></li>
-                    <li><a href="" class="text-lightgray">Магазин</a></li>
-                    <li><a href="" class="text-lightgray">Контакты</a></li>
-                </ul>
-                <button class="inline-block text-lightgray uppercase">Вход</button>
+      <div class="container">
+        <nav class="flex justify-between uppercase font-bold text-xl py-7">
+          <ul class="flex gap-10 lg:hidden">
+            <li><a href="" class="text-lightgray">Информация</a></li>
+            <li><a href="" class="text-lightgray">Новости</a></li>
+            <li><a href="" class="text-lightgray">Прайс-лист</a></li>
+            <li><a href="" class="text-lightgray">Магазин</a></li>
+            <li><a href="" class="text-lightgray">Контакты</a></li>
+          </ul>
+          <button class="inline-block text-lightgray uppercase">Вход</button>
 
-                <ul id="menu" class="hidden absolute left-6 right-6 top-10 bg-black flex flex-col justify-around items-center text-center">
-                    <li><a href="#" class="py-4 text-white">Информация</a></li>
-                    <li><a href="#" class="py-4 text-white">Новости</a></li>
-                    <li><a href="#" class="py-4 text-white">Прайс-лист</a></li>
-                    <li><a href="#" class="py-4 text-white">Магазин</a></li>
-                    <li><a href="#" class="py-4 text-white">Контакты</a></li>
-                </ul>
-                <button class="burger hidden lg:block">
-                    <span class="burger-line top-line"></span>
-                    <span class="burger-line mid-line"></span>
-                    <span class="burger-line bottom-line"></span>
-                </button>
-            </nav>
-        </div>
+          <ul
+            id="menu"
+            class="hidden absolute left-6 right-6 top-10 bg-black flex flex-col justify-around items-center text-center">
+            <li><a href="#" class="py-4 text-white">Информация</a></li>
+            <li><a href="#" class="py-4 text-white">Новости</a></li>
+            <li><a href="#" class="py-4 text-white">Прайс-лист</a></li>
+            <li><a href="#" class="py-4 text-white">Магазин</a></li>
+            <li><a href="#" class="py-4 text-white">Контакты</a></li>
+          </ul>
+          <button class="burger hidden lg:block">
+            <span class="burger-line top-line"></span>
+            <span class="burger-line mid-line"></span>
+            <span class="burger-line bottom-line"></span>
+          </button>
+        </nav>
+      </div>
     </header>
     <main id="main" class="pt-16">
-        <div class="container">
-            <section class="w-96 mx-auto sm:w-full">
-                <h1><img src="./image/index-logo.svg" alt=""></h1>  
-            </section>
-            <section class="flex text-lightwhite justify-between uppercase pt-16 font-bold sm:gap-4">
-                <div class="flex flex-col text-center">
-                    <h2 class="text-xl sm:text-base">Быстро</h2>
-                    <img src="image/Shape 1.svg" alt="" class="mx-auto pt-5 pb-7">
-                    <p class="sm:text-xs">мы делаем свою работу быстро! два часа 
-                        пролетят незаметно и вы 
-                        — счастливый обладатель
-                        стильной стрижки-минутки!</p>
-                </div>
-                <div class="flex flex-col text-center">
-                    <h2 class="text-xl sm:text-base">Круто</h2>
-                    <img src="image/Shape 1.svg" alt="" class="mx-auto pt-5 pb-7">
-                    <p class="sm:text-xs">забудьте, как вы стриглись раньше. мы сделаем из вас звезду футбола или кино! во всяком случае внешне.</p>
-                </div>
-                <div class="flex flex-col text-center">
-                    <h2 class="text-xl sm:text-base">Дорого</h2>
-                    <img src="image/Shape 1.svg" alt="" class="mx-auto pt-5 pb-7"> 
-                    <p class="sm:text-xs">наши мастера — профессионалы своего дела и не могут стоить дешево. к тому же, разве цена не дает определеный статус?</p>
-                </div>  
-            </section>
-            <section class="flex bg-[#faf7f4] justify-around mt-20 uppercase text-black font-bold pb-12 mb-10 md:flex-col md:justify-center md:items-center md:text-center sm:mt-12 sm:pb-8">
-                <div class="flex flex-col w-96 pt-12 sm:pt-6 sm:w-full">
-                    <h2 class="font-bold text-3xl pb-9 sm:pb-4 sm:text-2xl">Новости</h2>
-                    <p class="text-sm sm:px-2">нам наконец завезли ягермайстер! теперь вы можете пропустить стаканчик во время стрижки
-                    </p>
-                    <p class="text-sm pb-8 pt-4 sm:text-xs sm:pt-3 sm:pb-5">11 января</p>
-                    <p class="text-sm sm:px-2">в нашей команде пополнение, борис «бритва» стригунец, обладaтель множества титулов и наград пополнил наши стройные ряды</p>
-                    <p class="text-sm pb-8 pt-4 sm:text-xs sm:pt-3 sm:pb-5">18 января</p>
-                    <a href="#" class="px-8 py-4 bg-black text-white uppercase text-sm sm:w-60 sm:mx-auto">Все новости</a>
-                </div>
-                <div class="flex flex-col pt-12 sm:pt-6">
-                    <h2 class="font-bold text-3xl pb-9 sm:pb-4 sm:text-2xl">Фотогалерея</h2>
-                    <img src="image/Layer2.jpg" alt="" class="inline-block pb-10 w-96 sm:w-full sm:mx-auto">
-                    <div class="flex justify-between gap-4 sm:justify-around sm:gap-2">
-                        <button class="px-8 py-4 bg-black text-white uppercase text-sm w-full sm:w-40">Назад</button>
-                        <button class="px-8 py-4 bg-black text-white uppercase text-sm w-full sm:w-40">Вперед</button>    
-                    </div>
-                </div>
-            </section>
-            <section class="flex bg-[#faf7f4] justify-around mt-20 uppercase text-black font-bold pb-12 gap-5 md:flex-col md:justify-center md:text-center md:items-center sm:mt-10">
-                <div class="flex flex-col pt-12 sm:pt-8">
-                    <h2 class="font-bold text-3xl pb-10 sm:pb-4 sm:text-2xl">Контактная информация</h2>
-                    <p class="pb-9 text-sm sm:pb-5">БАРБЕРШОП «БОРОДИНСКИЙ» <br>
-                        АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 <br>
-                        ТЕЛЕФОН: +7 (495) 666-02-66</p>
-                    <p class="pb-7 text-sm">
-                        ВРЕМЯ РАБОТЫ: <br>
-                        ПН—ПТ: С 10:00 ДО 22:00 <br>
-                        СБ—ВС: С 10:00 ДО 19:00
-                    </p>
-                    <div class="flex gap-5 md:text-center md:justify-center sm:justify-around sm:gap-2">
-                        <a href="#" class="px-8 py-4 bg-black text-white uppercase text-sm">Как проехать</a>
-                        <a href="#"  class="px-8 py-4 bg-black text-white uppercase text-sm">Обратная связь</a>   
-                    </div>
-                </div>
-                <div class="flex flex-col pt-12 sm:pt-6">
-                    <h2 class="font-bold text-3xl mb-8 sm:text-2xl sm:mb-5">Записаться</h2>
-                    <p class="text-sm sm:w-full">УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ <br class="sm:hidden">
-                        С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
-                    <form class="grid grid-rows-3 grid-cols-2 gap-5 md:flex md:flex-col">
-                        <div class="flex flex-col row-start-1 row-end-2 col-span-1 w-32 md:w-full sm:w-80 sm:mx-auto">
-                            <label for="date" class="my-4 sm:my-2">Дата</label>
-                            <input type="text" id="date" placeholder="08.10.2017" class="py-4 px-4 border-2 border-black text-[#716f6e]">
-                        </div>
-                        <div class="flex flex-col row-start-1 row-end-2 col-span-2 w-32 md:w-full sm:w-80 sm:mx-auto">
-                            <label for="time" class="my-4 sm:my-2">Время</label>
-                            <input type="text" id="time" placeholder="10:00" class="py-4 px-4 border-2 border-black text-[#716f6e]">
-                        </div>
-                        <div class="flex flex-col row-start-2 row-end-3 col-span-1 w-32 md:w-full sm:w-80 sm:mx-auto">
-                            <label for="name" class="my-4 sm:my-2">Ваше имя</label>
-                            <input type="text" id="name" placeholder="Борода" class="py-4 px-4 border-2 border-black text-[#716f6e]">
-                        </div>
-                        <div class="flex flex-col row-start-2 row-end-3 col-span-2 w-32 md:w-full sm:w-80 sm:mx-auto">
-                            <label for="phone" class="my-4 sm:my-2">Телефон</label>
-                            <input type="text" id="phone" placeholder="+7 123 456 78-90" class="py-4 px-4 border-2 border-black text-[#716f6e]">
-                        </div>
-                        <button class="px-8 py-4 bg-black text-white uppercase text-sm w-full mt-5 col-start-1 col-end-3 sm:mt-3 sm:w-80 sm:mx-auto">Отправить</button>
-                    </form>
-                </div>
-            </section>
-        </div>
+      <div class="container">
+        <section class="w-96 mx-auto sm:w-full">
+          <h1><img src="./image/index-logo.svg" alt="" /></h1>
+        </section>
+        <section
+          class="flex text-lightwhite justify-between uppercase pt-16 font-bold sm:gap-4">
+          <div class="flex flex-col text-center">
+            <h2 class="text-xl sm:text-base">Быстро</h2>
+            <img src="image/Shape 1.svg" alt="" class="mx-auto pt-5 pb-7" />
+            <p class="sm:text-xs">
+              мы делаем свою работу быстро! два часа пролетят незаметно и вы —
+              счастливый обладатель стильной стрижки-минутки!
+            </p>
+          </div>
+          <div class="flex flex-col text-center">
+            <h2 class="text-xl sm:text-base">Круто</h2>
+            <img src="image/Shape 1.svg" alt="" class="mx-auto pt-5 pb-7" />
+            <p class="sm:text-xs">
+              забудьте, как вы стриглись раньше. мы сделаем из вас звезду
+              футбола или кино! во всяком случае внешне.
+            </p>
+          </div>
+          <div class="flex flex-col text-center">
+            <h2 class="text-xl sm:text-base">Дорого</h2>
+            <img src="image/Shape 1.svg" alt="" class="mx-auto pt-5 pb-7" />
+            <p class="sm:text-xs">
+              наши мастера — профессионалы своего дела и не могут стоить дешево.
+              к тому же, разве цена не дает определеный статус?
+            </p>
+          </div>
+        </section>
+        <section
+          class="flex bg-[#faf7f4] justify-around mt-20 uppercase text-black font-bold pb-12 mb-10 md:flex-col md:justify-center md:items-center md:text-center sm:mt-12 sm:pb-8">
+          <div class="flex flex-col w-96 pt-12 sm:pt-6 sm:w-full">
+            <h2 class="font-bold text-3xl pb-9 sm:pb-4 sm:text-2xl">Новости</h2>
+            <p class="text-sm sm:px-2">
+              нам наконец завезли ягермайстер! теперь вы можете пропустить
+              стаканчик во время стрижки
+            </p>
+            <p class="text-sm pb-8 pt-4 sm:text-xs sm:pt-3 sm:pb-5">
+              11 января
+            </p>
+            <p class="text-sm sm:px-2">
+              в нашей команде пополнение, борис «бритва» стригунец, обладaтель
+              множества титулов и наград пополнил наши стройные ряды
+            </p>
+            <p class="text-sm pb-8 pt-4 sm:text-xs sm:pt-3 sm:pb-5">
+              18 января
+            </p>
+            <a
+              href="#"
+              class="px-8 py-4 bg-black text-white uppercase text-sm sm:w-60 sm:mx-auto"
+              >Все новости</a
+            >
+          </div>
+          <div class="flex flex-col pt-12 sm:pt-6">
+            <h2 class="font-bold text-3xl pb-9 sm:pb-4 sm:text-2xl">
+              Фотогалерея
+            </h2>
+            <img
+              src="image/Layer2.jpg"
+              alt=""
+              class="inline-block pb-10 w-96 sm:w-full sm:mx-auto" />
+            <div class="flex justify-between gap-4 sm:justify-around sm:gap-2">
+              <button
+                class="px-8 py-4 bg-black text-white uppercase text-sm w-full sm:w-40">
+                Назад
+              </button>
+              <button
+                class="px-8 py-4 bg-black text-white uppercase text-sm w-full sm:w-40">
+                Вперед
+              </button>
+            </div>
+          </div>
+        </section>
+        <section
+          class="flex bg-[#faf7f4] justify-around mt-20 uppercase text-black font-bold pb-12 gap-5 md:flex-col md:justify-center md:text-center md:items-center sm:mt-10">
+          <div class="flex flex-col pt-12 sm:pt-8">
+            <h2 class="font-bold text-3xl pb-10 sm:pb-4 sm:text-2xl">
+              Контактная информация
+            </h2>
+            <p class="pb-9 text-sm sm:pb-5">
+              БАРБЕРШОП «БОРОДИНСКИЙ» <br />
+              АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 <br />
+              ТЕЛЕФОН: +7 (495) 666-02-66
+            </p>
+            <p class="pb-7 text-sm">
+              ВРЕМЯ РАБОТЫ: <br />
+              ПН—ПТ: С 10:00 ДО 22:00 <br />
+              СБ—ВС: С 10:00 ДО 19:00
+            </p>
+            <div
+              class="flex gap-5 md:text-center md:justify-center sm:justify-around sm:gap-2">
+              <a
+                href="#"
+                class="px-8 py-4 bg-black text-white uppercase text-sm"
+                >Как проехать</a
+              >
+              <a
+                href="#"
+                class="px-8 py-4 bg-black text-white uppercase text-sm"
+                >Обратная связь</a
+              >
+            </div>
+          </div>
+          <div class="flex flex-col pt-12 sm:pt-6">
+            <h2 class="font-bold text-3xl mb-8 sm:text-2xl sm:mb-5">
+              Записаться
+            </h2>
+            <p class="text-sm sm:w-full">
+              УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ
+              <br class="sm:hidden" />
+              С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
+            </p>
+            <form
+              class="grid grid-rows-3 grid-cols-2 gap-5 md:flex md:flex-col">
+              <div
+                class="flex flex-col row-start-1 row-end-2 col-span-1 w-32 md:w-full sm:w-80 sm:mx-auto">
+                <label for="date" class="my-4 sm:my-2">Дата</label>
+                <input
+                  type="text"
+                  id="date"
+                  placeholder="08.10.2017"
+                  class="py-4 px-4 border-2 border-black text-[#716f6e]" />
+              </div>
+              <div
+                class="flex flex-col row-start-1 row-end-2 col-span-2 w-32 md:w-full sm:w-80 sm:mx-auto">
+                <label for="time" class="my-4 sm:my-2">Время</label>
+                <input
+                  type="text"
+                  id="time"
+                  placeholder="10:00"
+                  class="py-4 px-4 border-2 border-black text-[#716f6e]" />
+              </div>
+              <div
+                class="flex flex-col row-start-2 row-end-3 col-span-1 w-32 md:w-full sm:w-80 sm:mx-auto">
+                <label for="name" class="my-4 sm:my-2">Ваше имя</label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Борода"
+                  class="py-4 px-4 border-2 border-black text-[#716f6e]" />
+              </div>
+              <div
+                class="flex flex-col row-start-2 row-end-3 col-span-2 w-32 md:w-full sm:w-80 sm:mx-auto">
+                <label for="phone" class="my-4 sm:my-2">Телефон</label>
+                <input
+                  type="text"
+                  id="phone"
+                  placeholder="+7 123 456 78-90"
+                  class="py-4 px-4 border-2 border-black text-[#716f6e]" />
+              </div>
+              <button
+                class="px-8 py-4 bg-black text-white uppercase text-sm w-full mt-5 col-start-1 col-end-3 sm:mt-3 sm:w-80 sm:mx-auto">
+                Отправить
+              </button>
+            </form>
+          </div>
+        </section>
+      </div>
     </main>
     <footer id="footer">
-        <div class="container">
-            <section class="flex justify-between text-white uppercase items-center pb-10 pt-16 font-bold content-center sm:text-xs sm:justify-center">
-                <div class="flex flex-col">
-                    <ul class="flex flex-col gap-3">
-                        <li>БАРБЕРШОП «БОРОДИНСКИЙ»</li>
-                        <li>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8</li>
-                        <li>Как нас найти?</li>
-                        <li>ТЕЛЕФОН: +7 (495) 666-02-66</li>
-                    </ul>
-                </div>
-                <div class="flex flex-col sm:w-full sm:justify-center sm:items-center sm:content-center">
-                    <h3 class="text-sm mb-6 sm:text-xs">Давайте дружить!</h3>
-                    <ul class="flex gap-3 sm:justify-center sm:items-center sm:content-center">
-                        <li class='bg-black py-3 px-3 sm:px-2'><a href="#"><img src="image/vk.png" alt=""></a></li>
-                        <li class='bg-black py-3 px-4 sm:py-2'><a href="#"><img src="image/facebook.png" alt=""></a></li>
-                        <li class='bg-black py-3 px-3 sm:py-2'><a href="#"><img src="image/instagram.png" alt=""></a></li>
-                    </ul>
-                </div>
-                <div class="created flex flex-col md:hidden">
-                    <h3 class="mb-6">Макет разработан:</h3>
-                    <a href="#" class="px-7 py-4 bg-black">HTML Academy</a>
-                </div>
-            </section>
-        </div>
+      <div class="container">
+        <section
+          class="flex justify-between text-white uppercase items-center pb-10 pt-16 font-bold content-center sm:text-xs sm:justify-center">
+          <div class="flex flex-col">
+            <ul class="flex flex-col gap-3">
+              <li>БАРБЕРШОП «БОРОДИНСКИЙ»</li>
+              <li>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8</li>
+              <li>Как нас найти?</li>
+              <li>ТЕЛЕФОН: +7 (495) 666-02-66</li>
+            </ul>
+          </div>
+          <div
+            class="flex flex-col sm:w-full sm:justify-center sm:items-center sm:content-center">
+            <h3 class="text-sm mb-6 sm:text-xs">Давайте дружить!</h3>
+            <ul
+              class="flex gap-3 sm:justify-center sm:items-center sm:content-center">
+              <li class="bg-black py-3 px-3 sm:px-2">
+                <a href="#"><img src="image/vk.png" alt="" /></a>
+              </li>
+              <li class="bg-black py-3 px-4 sm:py-2">
+                <a href="#"><img src="image/facebook.png" alt="" /></a>
+              </li>
+              <li class="bg-black py-3 px-3 sm:py-2">
+                <a href="#"><img src="image/instagram.png" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="created flex flex-col md:hidden lg:hidden">
+            <h3 class="mb-6">Макет разработан:</h3>
+            <a href="#" class="px-7 py-4 bg-black">HTML Academy</a>
+          </div>
+        </section>
+      </div>
     </footer>
     <script src="./src/main.js"></script>
-</body>
+  </body>
 </html>
