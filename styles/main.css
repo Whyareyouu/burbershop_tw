@@ -932,7 +932,7 @@ video {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 830px) {
   .md\:flex {
     display: flex;
   }
